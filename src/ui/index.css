@@ -1,0 +1,12 @@
+@import "tailwindcss";
+
+@layer base {
+  header {
+    -webkit-app-region: drag;
+  }
+
+  header button {
+    all: unset;
+    -webkit-app-region: no-drag;
+  }
+}
